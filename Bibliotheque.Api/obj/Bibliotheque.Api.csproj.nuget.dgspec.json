@@ -62,9 +62,17 @@
               "target": "Package",
               "version": "[8.0.1, )"
             },
-            "MySql.EntityFrameworkCore": {
+            "MySqlConnector": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[2.3.5, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.0-beta.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql.Design": {
+              "target": "Package",
+              "version": "[1.1.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -142,9 +150,17 @@
               "target": "Package",
               "version": "[8.0.1, )"
             },
-            "MySql.EntityFrameworkCore": {
+            "MySqlConnector": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[2.3.5, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.0-beta.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql.Design": {
+              "target": "Package",
+              "version": "[1.1.2, )"
             }
           },
           "imports": [
@@ -211,9 +227,17 @@
               "target": "Package",
               "version": "[8.0.1, )"
             },
-            "MySql.EntityFrameworkCore": {
+            "MySqlConnector": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[2.3.5, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.0-beta.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql.Design": {
+              "target": "Package",
+              "version": "[1.1.2, )"
             }
           },
           "imports": [
@@ -284,9 +308,17 @@
               "target": "Package",
               "version": "[8.0.1, )"
             },
-            "MySql.EntityFrameworkCore": {
+            "MySqlConnector": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[2.3.5, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.0-beta.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql.Design": {
+              "target": "Package",
+              "version": "[1.1.2, )"
             }
           },
           "imports": [

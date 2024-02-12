@@ -17,8 +17,10 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApiContext>(opts =>
     {
         var connectionString = builder.Configuration.GetConnectionString("Database");
-        opts.UseMySQL(connectionString, mySqlOption =>
-            mySqlOption.MigrationsAssembly(typeof(ApiContext).Assembly.FullName));
+        opts.UseMySql(connectionString, 
+            ServerVersion.AutoDetect(connectionString),
+            
+            opts => opts.MigrationsAssembly(typeof(ApiContext).Assembly.FullName));
     })
     .AddTransient<IClientRepository, ClientRepository>()
     .AddTransient<IClientService, ClientService>();
